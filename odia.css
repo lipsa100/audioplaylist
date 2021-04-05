@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://media.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy.gif");
+
+  background-size: cover;
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", "cursive";
+  text-shadow: 3px 0 #DA0463;
+
+}
+.rightside img{
+  height:400px;
+  width:35%;
+  margin-left: 25%;
+  margin-top: -650px;
+}
+
+footer {
+  color: #DBEDF3;
+
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+
+.wajah {
+background-image: url("sounds/odia/balikabadhu.jpeg");
+background-size:cover;
+}
+
+.kabhi {
+background-image: url("sounds/odia/chatichirideletu.jpeg");
+background-size: cover;
+}
+
+.cmyn {
+background-image: url("sounds/odia/janamadeinusina.jpg");
+background-size:cover;
+}
+
+.ekdin{
+background-image: url("sounds/odia/kulanandanaa.jpeg");
+background-size:cover;
+}
+
+.haledil {
+background-image: url("sounds/odia/maasinagae.jpg");
+background-size: cover;
+}
+
+.butterfly {
+background-image: url("sounds/odia/moakhiretupalaka.jpeg");
+background-size: cover;
+}
+
+.tumhiho {
+background-image: url("sounds/odia/sunapanjuri.jpeg");
+background-size: cover;
+}
+
+.burj {
+  background-image: url("sounds/odia/tumoakhira.jpg");
+  background-size: cover;
+}
+
+.laapata{
+  background-image: url("sounds/odia/tuthile.jpeg");
+  background-size: cover;
+}
+.set {
+  width: 35%;
+  position: relative;
+  text-align: left;
+  margin-left: 6%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #350b40;
+  font-size:1px;
+  font-family: 'Arvo', 'cursive';
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+@media (max-width:1028px){
+  .drum{
+    height:200px;
+    width:200px;
+    margin: 40px;
+
+  }
+
+}

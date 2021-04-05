@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://media.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy.gif");
+
+  background-size: cover;
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", "cursive";
+  text-shadow: 3px 0 #DA0463;
+
+}
+.rightside img{
+  height:400px;
+  width:35%;
+  margin-left: 25%;
+  margin-top: -650px;
+}
+
+footer {
+  color: #DBEDF3;
+
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+
+.lean_on {
+background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Major_Lazer_and_DJ_Snake_-_Lean_On_%28feat._M%C3%98%29.png/220px-Major_Lazer_and_DJ_Snake_-_Lean_On_%28feat._M%C3%98%29.png");
+background-size:cover;
+}
+
+.seeyouagain {
+background-image: url("http://weekendfm.pl/_fot/hitport_jpg/521.jpg");
+background-size: cover;
+}
+
+.senorita {
+background-image: url("https://image.winudf.com/v2/image1/Y29tLmhhcHB5c29uZ3Muc2hhd25tZW5kZXNfc2NyZWVuXzBfMTU2NTYzMjUyMl8wNjk/screen-0.jpg?fakeurl=1&type=.jpg");
+background-size:cover;
+}
+
+.love_me{
+background-image: url("https://c-sf.smule.com/rs-s82/arr/5a/4c/a5949d98-f912-4124-b1a1-71bfb58613e6_1024.jpg");
+background-size:cover;
+}
+
+.turndown {
+background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/015/741/2539_logo_TurnDownForWhatCover01.jpg");
+background-size: cover;
+}
+
+.safari {
+background-image: url("https://i.pinimg.com/474x/6c/f1/7e/6cf17e8ca690ab2de1d535433d8e6681.jpg");
+background-size: cover;
+}
+
+.heartattack {
+background-image: url("http://netstorage.metrolyrics.com/editorials/f40ba/EI-Image.jpg");
+background-size: cover;
+}
+
+.believer{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ba026f84cde7a2f547d141f/1538513832290-TKPOXK2X651V4TXZMAXR/ke17ZwdGBToddI8pDm48kBxaLT_bwzcYEZQd9jviU9VZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzTBHJUZ7JOi-aMF_hVNJicNxyT4TXrGvKfSOsj4AmlukL8-2jBuvwlz2ArFDnf8g0/believerdocumentary.jpg?format=1000w");
+  background-size: cover;
+}
+
+.faded{
+  background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/70/b9/34/70b93425-ced4-a05b-28a0-9c860d66cf18/source/600x600bb.jpg");
+  background-size: cover;
+}
+.set {
+  width: 35%;
+  position: relative;
+  text-align: left;
+  margin-left: 6%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #350b40;
+  font-size:1px;
+  font-family: 'Arvo', 'cursive';
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+@media (max-width:1028px){
+  .drum{
+    height:200px;
+    width:200px;
+    margin: 40px;
+
+  }
+
+}
