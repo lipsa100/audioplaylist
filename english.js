@@ -1,13 +1,13 @@
 
-var audio=new Audio("sounds/English/senorita.mp3");
-var audio1=new Audio("sounds/English/lovemelikeyoudo.mp3");
-var audio2=new Audio("sounds/English/safari.mp3");
-var audio3=new Audio("sounds/English/heartattack.mp3");
-var audio4=new Audio("sounds/English/believer.mp3");
-var audio5=new Audio("sounds/English/turndownforwhat.mp3");
+var audio=new Audio("senorita.mp3");
+var audio1=new Audio("lovemelikeyoudo.mp3");
+var audio2=new Audio("safari.mp3");
+var audio3=new Audio("heartattack.mp3");
+var audio4=new Audio("believer.mp3");
+var audio5=new Audio("turndownforwhat.mp3");
 var audio6=new Audio("sounds/English/leanon.mp3");
-var audio14=new Audio("sounds/English/seeyouagain.mp3");
-var audio15=new Audio("sounds/English/faded.mp3");
+var audio14=new Audio("seeyouagain.mp3");
+var audio15=new Audio("faded.mp3");
 
 
 var buttonse = document.querySelector(".senorita"),count =0;
