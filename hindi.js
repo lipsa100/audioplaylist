@@ -3,15 +3,15 @@
 // alert("Hey "+ name1 + " Great To see you 😇");
 
 // sounds
-var audio=new Audio("sounds/hindii/aksarisduniyamein.mp3");
-var audio1=new Audio("sounds/hindii/dheeredheerese.mp3");
-var audio2=new Audio("sounds/hindii/dilkarishta.mp3");
-var audio3=new Audio("sounds/hindii/dillagaliyamaine.mp3");
-var audio4=new Audio("sounds/hindii/humeintumsehuahaipyaar.mp3");
-var audio5=new Audio("sounds/hindii/kissikimuskurahaton.mp3");
-var audio6=new Audio("sounds/hindii/bepanah.mp3");
-var audio14=new Audio("sounds/hindii/mainduniyabhuladunga.mp3");
-var audio15=new Audio("sounds/hindii/mohabbatdilkasukoon.mp3");
+var audio=new Audio("aksarisduniyamein.mp3");
+var audio1=new Audio("dheeredheerese.mp3");
+var audio2=new Audio("dilkarishta.mp3");
+var audio3=new Audio("dillagaliyamaine.mp3");
+var audio4=new Audio("humeintumsehuahaipyaar.mp3");
+var audio5=new Audio("kissikimuskurahaton.mp3");
+var audio6=new Audio("bepanah.mp3");
+var audio14=new Audio("mainduniyabhuladunga.mp3");
+var audio15=new Audio("mohabbatdilkasukoon.mp3");
 
 
 var buttonw = document.querySelector(".wajah"),count =0;
