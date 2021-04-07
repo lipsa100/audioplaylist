@@ -10,15 +10,15 @@ var audio14=new Audio("sounds/odia/mukotiemotire.mp3");
 var audio15=new Audio("sounds/odia/tudakilu.mp3");
 
 
-var buttonse = document.querySelector(".senorita"),count =0;
-var buttonlo = document.querySelector(".love_me"),count = 0;
-var buttonsa = document.querySelector(".safari"),count = 0;
-var buttonh = document.querySelector(".heartattack"),count =0;
-var buttonb = document.querySelector(".believer"),count = 0;
-var buttont = document.querySelector(".turndown"),count = 0;
-var buttonle = document.querySelector(".lean_on"),count = 0;
-var buttonsee = document.querySelector(".seeyouagain"),count = 0;
-var buttonf = document.querySelector(".faded"),count = 0;
+var buttonbalika = document.querySelector(".balika"),count =0;
+var buttontuthile = document.querySelector(".tuthile"),count = 0;
+var buttonjanamadeinusina = document.querySelector(".janamadeinusina"),count = 0;
+var buttonkulanandana = document.querySelector(".kulanandana"),count =0;
+var buttonmaasinagae = document.querySelector(".maasinagae"),count = 0;
+var buttonmoakhiretupalaka = document.querySelector(".moakhiretupalaka"),count = 0;
+var buttonsunapanjuri = document.querySelector(".sunapanjuri"),count = 0;
+var buttontumoakhira = document.querySelector(".tumoakhira"),count = 0;
+var buttonchatichirideletu = document.querySelector(".chatichirideletu"),count = 0;
 
 var number=document.querySelectorAll(".drum").length;
 
@@ -42,9 +42,9 @@ recentbutton(buttonInnerHTML);
 
 function makesound(key){
   switch (key){
-    case "SE":
+    case "balika":
 
-    buttonse.onclick = function() {
+    buttonbalika.onclick = function() {
       count += 1;
     if (count % 2 ==0){
 
@@ -61,8 +61,8 @@ audio.play();
 audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio6.pause();audio14.pause();audio15.pause();
     break;
 
-    case "LO":
-    buttonlo.onclick = function() {
+    case "tuthile":
+    buttontuthile.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -81,8 +81,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
       break;
 
 
-    case "SA":
-    buttonsa.onclick = function() {
+    case "janamadeinusina":
+    buttonjanamadeinusina.onclick = function() {
 
       count += 1;
 
@@ -102,8 +102,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
     break;
 
 
-    case "H":
-    buttonh.onclick = function() {
+    case "kulanandana":
+    buttonkulanandana.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -122,8 +122,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
     break;
 
 
-    case "B":
-    buttonb.onclick = function() {
+    case "maasinagae":
+    buttonmaasinagae.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -142,8 +142,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
     break;
 
 
-    case "T":
-    buttont.onclick = function() {
+    case "moakhiretupalaka":
+    buttonmoakhiretupalaka.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -162,8 +162,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
     break;
 
 
-    case "LE":
-    buttonle.onclick = function() {
+    case "sunapanjuri":
+    buttonsunapanjuri.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -184,8 +184,8 @@ audio1.pause();audio2.pause();audio3.pause();audio4.pause();audio5.pause();audio
     break;
 
 
-    case "SEE" :
-    buttonsee.onclick = function() {
+    case "tumoakhira" :
+    buttontumoakhira.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
@@ -202,8 +202,8 @@ audio1.pause();audio2.pause();audio3.pause();  audio4.pause();  audio5.pause(); 
     audio1.pause();audio2.pause();audio3.pause();  audio4.pause();  audio5.pause();  audio6.pause();  audio.pause();  audio15.pause();
     break;
 
-    case "F":
-    buttonf.onclick = function() {
+    case "chatichirideletu":
+    buttonchatichirideletu.onclick = function() {
       count += 1;
 
     if (count % 2 ==0){
