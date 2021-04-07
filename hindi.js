@@ -26,7 +26,7 @@ var buttont = document.querySelector(".tumhiho"),count = 0;
 
 var number=document.querySelectorAll(".drum").length;
 
- var rotateimage=  document.querySelector(".right-default");
+ 
 
 for(i=0; i<number ; i++)
 {
