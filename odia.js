@@ -1,13 +1,13 @@
 
-var audio=new Audio("sounds/odia/balikabadhu.mp3");
-var audio1=new Audio("sounds/odia/tuthile.mp3");
-var audio2=new Audio("sounds/odia/janamadeinusina.mp3");
-var audio3=new Audio("sounds/odia/kulanandana.mp3");
-var audio4=new Audio("sounds/odia/maasinagae.mp3");
-var audio5=new Audio("sounds/odia/moakhiretupalaka.mp3");
-var audio6=new Audio("sounds/odia/moramanaudijae.mp3");
-var audio14=new Audio("sounds/odia/mukotiemotire.mp3");
-var audio15=new Audio("sounds/odia/tudakilu.mp3");
+var audio=new Audio("balikabadhu.mp3");
+var audio1=new Audio("tuthile.mp3");
+var audio2=new Audio("janamadeinusina.mp3");
+var audio3=new Audio("kulanandana.mp3");
+var audio4=new Audio("maasinagae.mp3");
+var audio5=new Audio("moakhiretupalaka.mp3");
+var audio6=new Audio("moramanaudijae.mp3");
+var audio14=new Audio("mukotiemotire.mp3");
+var audio15=new Audio("tudakilu.mp3");
 
 
 var buttonbalika = document.querySelector(".balika"),count =0;
