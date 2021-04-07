@@ -116,25 +116,7 @@ background-size: cover;
 .right-default{
   border-radius: 100%;
 }
-/*
-.wajah0{
-  display: flex;
-  animation: rotation 12s infinite linear;
-  border-radius: 100%;
-}
 
-.wajahpause{
-  background-image: url("https://a10.gaanacdn.com/images/albums/86/1526786/crop_480x480_1526786.jpg");
-
-}
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-} */
 
 @media (max-width:1028px){
   .drum{
