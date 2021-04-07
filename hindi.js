@@ -1,6 +1,4 @@
-// var name= prompt("What Is Your Good Name ? ");
-// var name1= name.slice(0,1).toUpperCase()+name.slice(1,name.length).toLowerCase();
-// alert("Hey "+ name1 + " Great To see you 😇");
+
 
 // sounds
 var audio=new Audio("aksarisduniyamein.mp3");
